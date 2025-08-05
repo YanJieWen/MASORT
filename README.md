@@ -14,8 +14,7 @@ Human-centric video data and algorithms have been driving advances in Multi-Obje
 Step1. Install MASORT
 ```shell
 git clone  https://github.com/YanJieWen/MASORT.git
-pip install emoji
-pip install loguru
+pip  install -r requirements.txt
 python setup.py develop
 ```
 Step2. Install motmetrics
