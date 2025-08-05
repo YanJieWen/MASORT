@@ -81,7 +81,7 @@ You can download the following detection and Re-ID weight, putting them into [pr
 | MOT20-test      | 63.8 | 75.7 | 79.0 | masort_mot20.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | mo20_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
 | DanceTrack-val  | 59.3 | 87.9 | 60.8 | masort_dance.pth.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | dance_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
 | DanceTrack-test  | 61.4 | 90.6 | 63.6 | masort_dance.pth.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | dance_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
-
+* It is important to place the Re-ID configuration file [mot17-sbs](external/mot17-sbs.yml) into [FastReID](external/fast-reid/configs). 
 ## How to Tracking⚡
 Scripts are in [runs](runs)
 ```shell
