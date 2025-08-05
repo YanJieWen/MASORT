@@ -27,6 +27,7 @@ Step3. Install [TrackEval](https://github.com/JonathonLuiten/TrackEval)
 ```shell
 cd external
 git clone https://github.com/JonathonLuiten/TrackEval.git
+cd TrackEval
 pip install -v -e .
 ```
 
