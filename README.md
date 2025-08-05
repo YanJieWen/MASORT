@@ -81,3 +81,22 @@ You can download the following detection and Re-ID weight, putting them into [pr
 | MOT20-test      | 63.8 | 75.7 | 79.0 | masort_mot20.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | mo20_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
 | DanceTrack-val  | 59.3 | 87.9 | 60.8 | masort_dance.pth.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | dance_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
 | DanceTrack-test  | 61.4 | 90.6 | 63.6 | masort_dance.pth.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | dance_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
+
+## How to Tracking⚡
+Scripts are in [runs](runs)
+```shell
+sh runs/mot17-ablation.sh
+sh runs/mot17-test.sh
+sh runs/mot20-test.sh
+sh runs/dance-val.sh
+sh runs/dance-test.sh
+```
+
+## Demo 
+**Constructing...**
+
+## Citation
+**Constructing...**
+
+## Acknowledgement
+A large part of the code is borrowed from [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX), [TrackEval](https://github.com/JonathonLuiten/TrackEval), [Torchreid](https://github.com/KaiyangZhou/deep-person-reid), [FastReid](https://github.com/JDAI-CV/fast-reid), [Deep-OC-SORT](https://github.com/GerardMaggiolino/Deep-OC-SORT/), [ByteTrack](https://github.com/FoundationVision/ByteTrack) and [TOPIC](https://github.com/holmescao/TOPICTrack). Many thanks for their excellent works.
