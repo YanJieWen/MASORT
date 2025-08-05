@@ -93,7 +93,7 @@ sh runs/dance-test.sh
 ```
 
 ## Demo 
-**Constructing...**
+<img src="assets/demo.gif" width="600"/>
 
 ## Citation
 **Constructing...**
