@@ -72,5 +72,12 @@ python tools/mix_data_test_mot20.py
 ```
 
 
-## Model ZOO
-
+## Model ZOO⭐
+You can download the following detection and Re-ID weight, putting them into [pretrained/masortweight](pretrained/masortweight) and [pretrained/reid-model](pretrained/reid-model) folders,respectively. 
+| Dataset         | HOTA | MOTA | IDF1 |  Model (Detection)                                                                                                                                                                | Model (Re-ID)
+| --------------- | ---- | ---- | ---- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MOT17-half-val  | 68.6 | 75.2 | 80.6 | masort_ablation.pth.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | osnet_ain_ms_d_c.pth.tar [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
+| MOT17-test      | 64.8 | 78.9 | 78.9 | masort_mot17.pth.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | mot17_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
+| MOT20-test      | 63.8 | 75.7 | 79.0 | masort_mot20.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | mo20_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
+| DanceTrack-val  | 59.3 | 87.9 | 60.8 | masort_dance.pth.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | dance_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
+| DanceTrack-test  | 61.4 | 90.6 | 63.6 | masort_dance.pth.tar [[baidu:csuw]](https://pan.baidu.com/s/1wXBDlMEIsJi6zGTxGBdkDg) | dance_sbs_S50.pth [[baidu:csuh]](https://pan.baidu.com/s/1VaSlnfQGY6Pn_KU8IRYiXg)
