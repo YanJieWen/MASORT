@@ -1,0 +1,7 @@
+emoji
+loguru
+lap
+pycocotools
+cython
+cython_bbox
+filterpy
