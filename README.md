@@ -15,6 +15,7 @@ Step1. Install MASORT
 ```shell
 git clone  https://github.com/YanJieWen/MASORT.git
 pip install emoji
+pip install loguru
 python setup.py develop
 ```
 Step2. Install motmetrics
